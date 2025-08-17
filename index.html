@@ -27,6 +27,26 @@
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
+    <!-- External JS -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="vendor/isotope/isotope.min.js"></script>
+	<script src="vendor/lightcase/lightcase.js"></script>
+	<script src="vendor/waypoints/waypoint.min.js"></script>
+	<script src="vendor/countTo/jquery.countTo.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+	<script src="//localhost:35729/livereload.js"></script>
+    <script>
+        document.getElementById("darkModeToggle").addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode");
+        });
+    </script>
+    
 </head>
 <body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout dark-mode">
 	<div class="boxed-page">
@@ -487,25 +507,7 @@
     </div>
 	
 </div>
-	<!-- External JS -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-	<script src="vendor/bootstrap/popper.min.js"></script>
-	<script src="vendor/bootstrap/bootstrap.min.js"></script>
-	<script src="vendor/select2/select2.min.js "></script>
-	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
-	<script src="vendor/isotope/isotope.min.js"></script>
-	<script src="vendor/lightcase/lightcase.js"></script>
-	<script src="vendor/waypoints/waypoint.min.js"></script>
-	<script src="vendor/countTo/jquery.countTo.js"></script>
-
-	<!-- Main JS -->
-	<script src="js/app.min.js "></script>
-	<script src="//localhost:35729/livereload.js"></script>
-    <script>
-        document.getElementById("darkModeToggle").addEventListener("click", function() {
-        document.body.classList.toggle("dark-mode");
-        });
-    </script>
+	
 
 </body>
 </html>
